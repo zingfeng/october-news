@@ -1,8 +1,8 @@
 title = "Portfolio"
 url = "/portfolio"
 layout = "default"
+is_hidden = 0
 ==
-
 {% put scripts %}
     <script src="{{ [
         'assets/vendor/isotope/jquery.isotope.js',
@@ -97,5 +97,9 @@ layout = "default"
             </div>
         </div>
 
+    </div>
+    
+    <div>
+        {% partial 'blog/sidebar' %}
     </div>
 </div>
